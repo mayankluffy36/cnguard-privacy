@@ -1,5 +1,5 @@
 CNGuard — Privacy Policy
-Last updated: 25 September 2026
+Last updated: 27 September 2026
 
 CNGuard is an app for CNG station staff that looks up a vehicle's hydrostatic test certificate on the Petroleum and Explosives Safety Organisation (PESO) public portal. This policy describes what the app collects, why, and where it goes.
 
@@ -8,7 +8,9 @@ Your name and mobile number. Entered once, when you first open the app. PESO's p
 
 The vehicle numbers you look up, and the certificate data PESO returns for them.
 
-The app does not collect or access: your location, your contacts, your photos, your SMS messages, your device advertising identifier, or any account credentials. It does not create an account and there is nothing to sign in to.
+The PESO verification SMS, only if you allow it. When PESO's code arrives, Android shows the message and asks whether CNGuard may read it. If you tap Allow, the app reads that one message, takes the code, and submits it for you. If you tap Deny, you type the code yourself. The message is not stored or sent anywhere; only the code is sent, as described below.
+
+The app does not collect or access: your location, your contacts, your photos, any other SMS messages, your device advertising identifier, or any account credentials. It does not create an account and there is nothing to sign in to.
 
 Where your data is stored
 Your name, mobile number and lookup history are stored only on your own phone, in the app's private storage. They are not uploaded to any account, backed up to a server, or shared with anyone. Uninstalling the app deletes them. You can clear the history at any time from within the app, and change your name or mobile number in Settings.
@@ -34,7 +36,7 @@ Children
 CNGuard is a workplace tool for CNG station staff. It is not directed at children and collects nothing from them.
 
 Permissions
-The app declares one Android permission: internet access. It does not request SMS, contacts, location, camera, or storage permissions. You read the verification code from your own notifications; the app never reads your messages.
+The app declares one Android permission: internet access. It does not request SMS, contacts, location, camera, or storage permissions. Reading the verification code uses Google's SMS User Consent feature, which needs no SMS permission: Android asks you about each message separately, and the app never sees your inbox or any message you do not allow.
 
 Your choices
 Change your name or mobile number: Settings, inside the app.
